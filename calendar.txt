@@ -1,0 +1,46 @@
+
+                ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+                ³                                           ³
+                ³      CALENDAR  -  PM Calendar Display     ³
+                ³                                           ³
+                ³               Version  1.0                ³
+                ³                                           ³
+                ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+                           (c) 1990  BEST SOFTWARE
+                             All rights reserved
+
+
+CALENDAR is a calendar function for OS/2 Presentation Manager. It will display 
+the calendar initially for the current month, and for any month and year
+combination selected between years 1901 and 2099.                   
+
+
+CALENDAR is invoked without parameters from either the command line or, more
+likely, from within the STARTUP.CMD file. Once active, the month and year for 
+display can be can be modified by pressing the buttons for the preceding or
+following month. The range of display is January 1901 through December 2099.                     
+
+Sample STARTUP.CMD contents:
+
+     START CALENDAR
+     EXIT
+
+(The above assumes that the CALENDAR.EXE file will be found in a directory
+listed in the current PATH assignment.)
+
+
+CALENDAR was developed by BEST SOFTWARE for unlimited public use free of charge
+and is distributed with the condition that this DOC file accompany the module.
+It was developed with IBM OS/2 SE Version 1.2 and should be fully functional on
+all OS/2 versions from 1.1 onwards.
+
+
+
+Any inquiries, please contact:
+
+     BEST SOFTWARE
+     P.O. Box 3097
+     Manuka  A.C.T.  2603
+     Australia
+

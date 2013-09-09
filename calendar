@@ -1,0 +1,21 @@
+calendar.inc: calendar.h
+  h2inc calendar
+
+calendar.obj: calendar.asm calendar.inc
+  \masm\masm /p /l /ml /n /ic:\toolkt12\masm\include calendar.asm,,;
+
+calenda2.obj: calenda2.asm
+  \masm\masm /p /l /ml /n /ic:\toolkt12\masm\include calenda2.asm,,;
+
+calendar.res: calendar.rc calendar.dlg calendar.ico calendar.h
+  rc -r calendar.rc
+
+calendar.exe: calendar.obj calenda2.obj calendar.def calendar.res
+  link calendar+calenda2, /a:16 /e, calendar, c:\toolkt12\lib\os2, calendar
+  rc calendar.res
+
+
+
+
+
+

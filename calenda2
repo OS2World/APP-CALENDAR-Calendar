@@ -1,0 +1,9 @@
+calenda2.obj: calenda2.asm
+  make calendar
+
+
+
+
+
+
+
